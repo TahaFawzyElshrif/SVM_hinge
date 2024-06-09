@@ -48,6 +48,10 @@ the cost function used in the algorithm :
 
 ## Usage :
 
+install
+pip install git+https://github.com/TahaFawzyElshrif/SVM_hinge.git
+
+
 `
 from SVM_hinge import SVM_hinge
 model=SVM_hinge()
