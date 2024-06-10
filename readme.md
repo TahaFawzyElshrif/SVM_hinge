@@ -53,7 +53,7 @@ pip install git+https://github.com/TahaFawzyElshrif/SVM_hinge.git
 
 
 `
-from SVM_hinge import SVM_hinge
+from SVM_hinge.SVM_hinge import SVM_hinge
 model=SVM_hinge()
 model.fit(X_train,y_train,lring_rate=.01,num_iters=500,lambada=.7)
 y_pred=model.predict(X_train)
